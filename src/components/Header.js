@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+
+import {Link} from 'react-router-dom';
 
 function Header() {
     return (
@@ -9,7 +11,9 @@ function Header() {
                     <div className="col-lg-6">
                     <div className="header__upper--left">
                         <div className="logo">
-                        <a href="index.html"><img src="./images/logo-main.png" alt="logo" /></a>
+                            <Link to="/">
+                            <a href="/#"><img src="./images/logo-main.png" alt="logo" /></a>
+                            </Link>
                         </div>
                     </div>
                     </div>
@@ -32,10 +36,14 @@ function Header() {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item active">
-                            <a className="nav-link" href="index.html"><i className="fas fa-home" />Home <span className="sr-only">(current)</span></a>
+                                <Link to="/">
+                                    <a href="/#" className="nav-link"><i className="fas fa-home" />Home <span className="sr-only">(current)</span></a>
+                                </Link>
                             </li>
                             <li className="nav-item">
-                            <a className="nav-link" href="about.html"><i className="fas fa-exclamation-circle" />About</a>
+                                <Link to="/about">
+                                <a className="nav-link" href="/#"><i className="fas fa-exclamation-circle" />About</a>
+                                </Link>
                             </li>
                             <li className="nav-item">
                             <a className="nav-link" href="our-services.html"><i className="fas fa-taxi" />Our Services</a>

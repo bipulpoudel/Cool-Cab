@@ -17,26 +17,6 @@ function HeroSection() {
                     <img src="./images/home/1.png" alt="home1" />
                     </div>
                 </div>
-                <div className="single-slider-item">
-                    <div className="hero-area-left">
-                    <h1>Earn. Connect. Contribute to Socity</h1>
-                    <p>Partner with us to drive your own livelihood and more.</p>
-                    <a href="signup.html" className="button button-dark big">Sign up Now</a>
-                    </div>
-                    <div className="hero-area-right">
-                    <img src="./images/home/1.png" alt="home2" />
-                    </div>
-                </div>
-                <div className="single-slider-item">
-                    <div className="hero-area-left">
-                    <h1>Earn. Connect. Contribute to Socity</h1>
-                    <p>Partner with us to drive your own livelihood and more.</p>
-                    <a href="signup.html" className="button button-dark big">Sign up Now</a>
-                    </div>
-                    <div className="hero-area-right">
-                    <img src="./images/home/1.png" alt="home3" />
-                    </div>
-                </div>
                 </div>
             </div>
             </div>
