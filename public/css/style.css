@@ -5,10 +5,13 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800");
 @import url('../icons/font-awesome/css/all.min.css');
 @import url('../icons/icofont/css/icofont.min.css');
-@import "../plugins/bootstrap/css/bootstrap.min.css";
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
 @import "../plugins/shortcode/shortcode.css";
 @import "../plugins/animate/animate.css";
 @import "../plugins/metismenu/css/metisMenu.min.css";
+
+
+
 * {
   outline: none;
   box-sizing: border-box;
@@ -313,7 +316,7 @@ h6 {
   position: absolute;
   left: 0;
   top: 110%;
-  background-image: url(../../assets/images/header-border.png);
+  background-image: url('../images/header-border.png');
   height: 6px;
   width: 60px;
   content: "";
@@ -343,7 +346,7 @@ img {
 }
 
 .striped-bg {
-  background-image: url(../../assets/images/striped-bg.jpg);
+  background-image: url('../images/striped-bg.jpg');
 }
 
 .bg-gray {
@@ -438,17 +441,19 @@ img {
 }
 
 .hero-area {
-  background-image: url(../../assets/images/home/bg.jpg);
+  background-image: url('../images/home/bg.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
   display: flex;
   align-items: center;
+  margin-top: 138px;
 }
 @media only screen and (max-width: 575px) {
   .hero-area {
     padding-top: 90px;
+    margin-top: 0px;
   }
 }
 .hero-area .hero-area-slider {
@@ -1561,7 +1566,7 @@ footer.theme-2 {
 }
 
 .counter-area {
-  background-image: url(../../assets/images/counter-bg.jpg);
+  background-image: url('../images/counter-bg.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1628,7 +1633,7 @@ footer.theme-2 {
 }
 
 .testimonial-area {
-  background-image: url(../../assets/images/home/bg3.jpg);
+  background-image: url('../images/home/bg3.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1669,7 +1674,7 @@ footer.theme-2 {
   right: 0;
   top: 0;
   content: "";
-  background-image: url(../../assets/images/home/2.png);
+  background-image: url('../images/home/2.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;

@@ -1,9 +1,18 @@
-import React from 'react'
+import React from 'react';
+
+//Import of Component
+import AboutUsSection from '../components/AboutUsSection'
+import HeroSection from '../components/HeroSection'
+import HowItWork from '../components/HowItWork'
+import TestimonialSection from '../components/TestimonialSection';
 
 function HomePage() {
     return (
         <>
-            <h1>Hello World</h1>
+            <HeroSection/>
+            <HowItWork/>
+            <AboutUsSection/>
+            <TestimonialSection/>
         </>
     )
 }
