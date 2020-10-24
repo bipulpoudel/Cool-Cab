@@ -58,7 +58,7 @@ function Header() {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/pakages">
+                            <Link to="/packages">
                                 <a className="nav-link" href="packages.html"><i className="fas fa-cube" />Packages</a>
                             </Link>
                         </li>

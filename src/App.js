@@ -7,6 +7,7 @@ import AboutPage from './pages/AboutPage';
 
 //page imports
 import HomePage from './pages/HomePage';
+import PackagePage from './pages/PackagePage';
 import ServicePage from './pages/ServicePage';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <RouteWrapper exact path="/" component={HomePage}/>
         <RouteWrapper exact path="/about" component={AboutPage}/>
         <RouteWrapper exact path="/services" component={ServicePage}/>
+        <RouteWrapper exact path="/packages" component={PackagePage}/>
       </Switch>
     </Router>
   );
