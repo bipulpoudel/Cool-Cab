@@ -2,7 +2,6 @@ import React from 'react'
 
 function OurTeamSection() {
     return (
-        <>
         <section className="section-padding team-section">
             <div className="container">
                 <div className="row">
@@ -14,7 +13,7 @@ function OurTeamSection() {
                 <div className="col-lg-4 col-sm-6">
                     <div className="single-team-member">
                     <div className="member-img">
-                        <img src="./images/driver-1.jpg" alt />
+                        <img src="./images/driver-1.jpg" alt="Bipul Poudel" />
                     </div>
                     <div className="member-info">
                         <h4 className="member-name">John Doe</h4>
@@ -26,7 +25,7 @@ function OurTeamSection() {
                 <div className="col-lg-4 col-sm-6">
                     <div className="single-team-member">
                     <div className="member-img">
-                        <img src="./images/driver-2.jpg" alt />
+                        <img src="./images/driver-2.jpg" alt="Bipul Poudel" />
                     </div>
                     <div className="member-info">
                         <h4 className="member-name">John Doe</h4>
@@ -38,7 +37,7 @@ function OurTeamSection() {
                 <div className="col-lg-4 offset-lg-0 col-sm-6 offset-sm-3">
                     <div className="single-team-member">
                     <div className="member-img">
-                        <img src="./images/driver-3.jpg" alt />
+                        <img src="./images/driver-3.jpg" alt="Bipul Poudel" />
                     </div>
                     <div className="member-info">
                         <h4 className="member-name">John Doe</h4>
@@ -50,8 +49,6 @@ function OurTeamSection() {
                 </div>
             </div>
         </section>
-
-        </>
     )
 }
 

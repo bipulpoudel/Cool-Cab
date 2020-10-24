@@ -41,23 +41,31 @@ function Header() {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
+                        
                         <li className="nav-item">
-                        <a className="nav-link" href="index.html"><i className="fas fa-home" />Home <span className="sr-only">(current)</span></a>
+                            <Link to="/">
+                                <a className="nav-link" href="#/"><i className="fas fa-home" />Home <span className="sr-only">(current)</span></a>
+                            </Link>
                         </li>
                         <li className="nav-item active">
-                        <a className="nav-link" href="about.html"><i className="fas fa-exclamation-circle" />About</a>
+                            <Link to="/about">
+                                <a className="nav-link" href="#/"><i className="fas fa-exclamation-circle" />About</a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="our-services.html"><i className="fas fa-taxi" />Our Services</a>
+                            <Link to="/services">
+                                <a className="nav-link" href="our-services.html"><i className="fas fa-taxi" />Our Services</a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="our-vehicles.html"><i className="fas fa-taxi" />Our Vehicles</a>
+                            <Link to="/pakages">
+                                <a className="nav-link" href="packages.html"><i className="fas fa-cube" />Packages</a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="packages.html"><i className="fas fa-cube" />Packages</a>
-                        </li>
-                        <li className="nav-item">
-                        <a className="nav-link" href="contact-us.html"><i className="fas fa-map-marker-alt" />Contacts</a>
+                            <Link to="/contact">
+                                <a className="nav-link" href="contact-us.html"><i className="fas fa-map-marker-alt" />Contacts</a>
+                            </Link>
                         </li>
                     </ul>
                     <div className="my-2 my-lg-0">
