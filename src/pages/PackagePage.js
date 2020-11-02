@@ -1,12 +1,12 @@
-import React from 'react'
-import OurPackageSection from '../components/OurPackageSection'
+import React from 'react';
+import OurPackageSection from '../components/OurPackageSection';
 
 function PackagePage() {
     return (
         <>
-            <OurPackageSection/>
+            <OurPackageSection />
         </>
-    )
+    );
 }
 
-export default PackagePage
+export default PackagePage;
