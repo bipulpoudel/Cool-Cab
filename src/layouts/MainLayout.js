@@ -1,17 +1,17 @@
-import React from 'react'
-import AppSection from '../components/AppSection'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
+import React from 'react';
+import AppSection from '../components/AppSection';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
 
-function MainLayout({children}) {
+function MainLayout({ children }) {
     return (
         <>
-        <Header/>
-         {children}
-         <AppSection/>
-         <Footer/>
+            <Header />
+            {children}
+            <AppSection />
+            <Footer />
         </>
-    )
+    );
 }
 
-export default MainLayout
+export default MainLayout;
