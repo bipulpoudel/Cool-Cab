@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Cool-Cab/static/css/main.65a6af82.chunk.css",
+    "main.js": "/Cool-Cab/static/js/main.02a3642e.chunk.js",
+    "main.js.map": "/Cool-Cab/static/js/main.02a3642e.chunk.js.map",
+    "runtime-main.js": "/Cool-Cab/static/js/runtime-main.6d137f62.js",
+    "runtime-main.js.map": "/Cool-Cab/static/js/runtime-main.6d137f62.js.map",
+    "static/js/2.440c04d0.chunk.js": "/Cool-Cab/static/js/2.440c04d0.chunk.js",
+    "static/js/2.440c04d0.chunk.js.map": "/Cool-Cab/static/js/2.440c04d0.chunk.js.map",
+    "index.html": "/Cool-Cab/index.html",
+    "precache-manifest.a8c0c5e8fcd1cb24965a51d2ba3caaf8.js": "/Cool-Cab/precache-manifest.a8c0c5e8fcd1cb24965a51d2ba3caaf8.js",
+    "service-worker.js": "/Cool-Cab/service-worker.js",
+    "static/css/main.65a6af82.chunk.css.map": "/Cool-Cab/static/css/main.65a6af82.chunk.css.map",
+    "static/js/2.440c04d0.chunk.js.LICENSE.txt": "/Cool-Cab/static/js/2.440c04d0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6d137f62.js",
+    "static/js/2.440c04d0.chunk.js",
+    "static/css/main.65a6af82.chunk.css",
+    "static/js/main.02a3642e.chunk.js"
+  ]
+}
