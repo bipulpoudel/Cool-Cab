@@ -1,5 +1,14 @@
 import React from 'react';
 
+import { Formik, Form, Field } from 'formik';
+import * as Yup from 'yup';
+
+const signInSchema = Yup.object().shape({
+    email: Yup.string()
+        .email('Please enter a valid email')
+        .required('Email is a required field'),
+});
+
 function SignInPart() {
     return (
         <form className='user-access-form'>
@@ -7,9 +16,8 @@ function SignInPart() {
                 <input
                     type='email'
                     className='form-control'
-                    id='exampleInputEmail1'
                     aria-describedby='emailHelp'
-                    placeholder='Email or Phone number'
+                    placeholder='Enter your email address'
                 />
             </div>
             <div className='form-group'>
