@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import SingUpPart from '../components/SingUpPart';
 
 function SignUpPage() {
     return (
@@ -35,70 +37,10 @@ function SignUpPage() {
                                         className='tab-pane active'
                                         id='rider'
                                     >
-                                        <form className='user-access-form'>
-                                            <div className='row'>
-                                                <div className='col-lg-6'>
-                                                    <div className='form-group'>
-                                                        <input
-                                                            type='email'
-                                                            className='form-control'
-                                                            id='exampleInputEmail1'
-                                                            aria-describedby='emailHelp'
-                                                            placeholder='First Name'
-                                                        />
-                                                    </div>
-                                                </div>
-                                                <div className='col-lg-6'>
-                                                    <div className='form-group'>
-                                                        <input
-                                                            type='email'
-                                                            className='form-control'
-                                                            id='exampleInputEmail1'
-                                                            aria-describedby='emailHelp'
-                                                            placeholder='Last Name'
-                                                        />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className='form-group'>
-                                                <input
-                                                    type='phone'
-                                                    className='form-control'
-                                                    id='exampleInputphone'
-                                                    placeholder='Phone number'
-                                                />
-                                            </div>
-                                            <div className='form-group'>
-                                                <input
-                                                    type='email'
-                                                    className='form-control'
-                                                    id='exampleInputPassword1'
-                                                    placeholder='Email'
-                                                />
-                                            </div>
-                                            <div className='form-group'>
-                                                <input
-                                                    type='password'
-                                                    className='form-control'
-                                                    id='exampleInputPassword1'
-                                                    placeholder='Password'
-                                                />
-                                            </div>
-                                            <button
-                                                type='submit'
-                                                className='button button-dark btn-block'
-                                            >
-                                                Sign in Now
-                                            </button>
-                                        </form>
+                                        <SingUpPart />
                                         <p className='acclink'>
                                             Already have an account?
-                                            <a href='sign-in.html'>
-                                                Sign in
-                                                <i className='icofont'>
-                                                    double_right
-                                                </i>
-                                            </a>
+                                            <Link to='/login'>Sign in</Link>
                                         </p>
                                     </div>
                                 </div>

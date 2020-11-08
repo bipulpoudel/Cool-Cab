@@ -21,7 +21,7 @@ function SignInPart() {
             }}
             validationSchema={signInSchema}
             onSubmit={values => {
-                console.log(values);
+                alert(`Congratulation ${values.email}, The form is validated`);
             }}
         >
             {({ errors, touched }) => (
