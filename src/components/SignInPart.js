@@ -11,27 +11,43 @@ const signInSchema = Yup.object().shape({
 
 function SignInPart() {
     return (
-        <form className='user-access-form'>
-            <div className='form-group'>
-                <input
-                    type='email'
-                    className='form-control'
-                    aria-describedby='emailHelp'
-                    placeholder='Enter your email address'
-                />
-            </div>
-            <div className='form-group'>
-                <input
-                    type='password'
-                    className='form-control'
-                    id='exampleInputPassword1'
-                    placeholder='Password'
-                />
-            </div>
-            <button type='submit' className='button button-dark btn-block'>
-                Sign in Now
-            </button>
-        </form>
+        <Formik
+            initialValues={{
+                email: '',
+                password: '',
+            }}
+            validationSchema={signInSchema}
+            onSubmit={values => {
+                console.log(values);
+            }}
+        >
+            {({ errors, touched }) => (
+                <div className='user-access-form'>
+                    <div className='form-group'>
+                        <input
+                            type='email'
+                            className='form-control'
+                            aria-describedby='emailHelp'
+                            placeholder='Enter your email address'
+                        />
+                    </div>
+                    <div className='form-group'>
+                        <input
+                            type='password'
+                            className='form-control'
+                            id='exampleInputPassword1'
+                            placeholder='Password'
+                        />
+                    </div>
+                    <button
+                        type='submit'
+                        className='button button-dark btn-block'
+                    >
+                        Sign in Now
+                    </button>
+                </div>
+            )}
+        </Formik>
     );
 }
 
