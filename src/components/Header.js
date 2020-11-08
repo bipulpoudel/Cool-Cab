@@ -22,31 +22,11 @@ function Header() {
                         </div>
                         <div className='col-lg-6'>
                             <div className='header__upper--right'>
-                                <nav className='navigation'>
-                                    <ul>
-                                        <li>
-                                            <a href='ride-with-cabgo.html'>
-                                                Ride
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href='my-driver-dashboard.html'>
-                                                Drive
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href='contact-us.html'>Help</a>
-                                        </li>
-                                        <li>
-                                            <a href='sign-in.html'>Sign in</a>
-                                        </li>
-                                    </ul>
-                                </nav>
                                 <a
                                     href='ride-with-cabgo.html'
                                     className='button button-dark'
                                 >
-                                    Ride with cabgo
+                                    Sign In
                                 </a>
                             </div>
                         </div>
@@ -127,7 +107,7 @@ function Header() {
                                             href='sign-up.html'
                                             className='button button-light'
                                         >
-                                            Become a Driver
+                                            Get Started
                                         </a>
                                     </div>
                                 </div>

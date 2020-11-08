@@ -11,7 +11,7 @@ function SignUpPage() {
                                 <a href='index.html'>
                                     <img
                                         src='../assets/images/logo-main.png'
-                                        alt
+                                        alt='logo'
                                     />
                                 </a>
                             </div>
@@ -52,166 +52,6 @@ function SignUpPage() {
                                         </a>
                                     </li>
                                 </ul>
-                                <div className='tab-content'>
-                                    <div
-                                        role='tabpanel'
-                                        className='tab-pane active'
-                                        id='rider'
-                                    >
-                                        <form className='user-access-form'>
-                                            <div className='row'>
-                                                <div className='col-lg-6'>
-                                                    <div className='form-group'>
-                                                        <input
-                                                            type='email'
-                                                            className='form-control'
-                                                            id='exampleInputEmail1'
-                                                            aria-describedby='emailHelp'
-                                                            placeholder='First Name'
-                                                        />
-                                                    </div>
-                                                </div>
-                                                <div className='col-lg-6'>
-                                                    <div className='form-group'>
-                                                        <input
-                                                            type='email'
-                                                            className='form-control'
-                                                            id='exampleInputEmail1'
-                                                            aria-describedby='emailHelp'
-                                                            placeholder='Last Name'
-                                                        />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className='form-group'>
-                                                <input
-                                                    type='phone'
-                                                    className='form-control'
-                                                    id='exampleInputphone'
-                                                    placeholder='Phone number'
-                                                />
-                                            </div>
-                                            <div className='form-group'>
-                                                <input
-                                                    type='email'
-                                                    className='form-control'
-                                                    id='exampleInputPassword1'
-                                                    placeholder='Email'
-                                                />
-                                            </div>
-                                            <div className='form-group'>
-                                                <input
-                                                    type='password'
-                                                    className='form-control'
-                                                    id='exampleInputPassword1'
-                                                    placeholder='Password'
-                                                />
-                                            </div>
-                                            <button
-                                                type='submit'
-                                                className='button button-dark btn-block'
-                                            >
-                                                Sign in Now
-                                            </button>
-                                        </form>
-                                        <p className='acclink'>
-                                            Already have an account?
-                                            <a href='sign-in.html'>
-                                                Sign in
-                                                <i className='icofont'>
-                                                    double_right
-                                                </i>
-                                            </a>
-                                        </p>
-                                    </div>
-                                    <div
-                                        role='tabpanel'
-                                        className='tab-pane'
-                                        id='driver'
-                                    >
-                                        <form className='user-access-form'>
-                                            <div className='row'>
-                                                <div className='col-lg-6'>
-                                                    <div className='form-group'>
-                                                        <input
-                                                            type='email'
-                                                            className='form-control'
-                                                            id='exampleInputEmail1'
-                                                            aria-describedby='emailHelp'
-                                                            placeholder='First Name'
-                                                        />
-                                                    </div>
-                                                </div>
-                                                <div className='col-lg-6'>
-                                                    <div className='form-group'>
-                                                        <input
-                                                            type='email'
-                                                            className='form-control'
-                                                            id='exampleInputEmail1'
-                                                            aria-describedby='emailHelp'
-                                                            placeholder='Last Name'
-                                                        />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className='form-group'>
-                                                <input
-                                                    type='phone'
-                                                    className='form-control'
-                                                    id='exampleInputphone'
-                                                    placeholder='Phone number'
-                                                />
-                                            </div>
-                                            <div className='form-group'>
-                                                <input
-                                                    type='email'
-                                                    className='form-control'
-                                                    id='exampleInputPassword1'
-                                                    placeholder='Email'
-                                                />
-                                            </div>
-                                            <div className='form-group'>
-                                                <input
-                                                    type='password'
-                                                    className='form-control'
-                                                    id='exampleInputPassword1'
-                                                    placeholder='Create Password'
-                                                />
-                                            </div>
-                                            <div className='form-group'>
-                                                <input
-                                                    type='text'
-                                                    className='form-control'
-                                                    id='exampleInputPassword1'
-                                                    placeholder='City'
-                                                />
-                                            </div>
-                                            <div className='form-group'>
-                                                <input
-                                                    type='text'
-                                                    className='form-control'
-                                                    id='exampleInputPassword1'
-                                                    placeholder='Invite Code'
-                                                />
-                                            </div>
-                                            <button
-                                                type='submit'
-                                                className='button button-dark btn-block'
-                                            >
-                                                Sign in Now
-                                            </button>
-                                        </form>
-                                        <p className='acclink'>
-                                            Already have an account?
-                                            <a href='sign-in.html'>
-                                                Sign in
-                                                <i className='icofont'>
-                                                    double_right
-                                                </i>
-                                            </a>
-                                        </p>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -234,32 +74,32 @@ function SignUpPage() {
                             <div className='col-lg-6'>
                                 <ul className='social-nav'>
                                     <li>
-                                        <a href='#' className='facebook'>
+                                        <a href='/#' className='facebook'>
                                             <i className='fab fa-facebook-f' />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href='#' className='twitter'>
+                                        <a href='/#' className='twitter'>
                                             <i className='fab fa-twitter' />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href='#' className='instagram'>
+                                        <a href='/#' className='instagram'>
                                             <i className='fab fa-instagram' />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href='#' className='google-p'>
+                                        <a href='/#' className='google-p'>
                                             <i className='fab fa-google-plus-g' />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href='#' className='linkedin'>
+                                        <a href='/#' className='linkedin'>
                                             <i className='fab fa-linkedin-in' />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href='#' className='pinterest'>
+                                        <a href='/#' className='pinterest'>
                                             <i className='fab fa-pinterest-p' />
                                         </a>
                                     </li>
@@ -267,13 +107,13 @@ function SignUpPage() {
                             </div>
                             <div className='col-lg-3'>
                                 <div className='app-download-box'>
-                                    <a href='#'>
+                                    <a href='/#'>
                                         <img
                                             src='../assets/images/icon/google-play.jpg'
                                             alt='Google play'
                                         />
                                     </a>
-                                    <a href='#'>
+                                    <a href='/#'>
                                         <img
                                             src='../assets/images/icon/apple-store.jpg'
                                             alt='Apple store'
@@ -296,10 +136,10 @@ function SignUpPage() {
                             <div className='col-lg-6'>
                                 <ul className='social-nav'>
                                     <li>
-                                        <a href='#'>Privecy</a>
+                                        <a href='/#'>Privecy</a>
                                     </li>
                                     <li>
-                                        <a href='#'>Terms</a>
+                                        <a href='/#'>Terms</a>
                                     </li>
                                 </ul>
                             </div>
