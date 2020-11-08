@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Formik, Form } from 'formik';
+import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 
 const signInSchema = Yup.object().shape({
@@ -27,29 +27,30 @@ function SignInPart() {
             {({ errors, touched }) => (
                 <Form className='user-access-form'>
                     <div className='form-group'>
-                        <input
-                            type='email'
-                            className='form-control'
-                            aria-describedby='emailHelp'
-                            placeholder='Enter your email address'
-                        />
                         {errors.email && touched.email ? (
-                            <div>{errors.email}</div>
+                            <small id='emailHelp' class='form-text text-danger'>
+                                {errors.email}
+                            </small>
                         ) : null}
+                        <Field
+                            name='email'
+                            className='form-control'
+                            placeholder='Enter the email address'
+                        />
                     </div>
 
                     <div className='form-group'>
-                        <input
-                            type='password'
-                            className='form-control'
-                            id='exampleInputPassword1'
-                            placeholder='Password'
-                        />
                         {errors.password && touched.password ? (
                             <small id='emailHelp' class='form-text text-danger'>
                                 {errors.password}
                             </small>
                         ) : null}
+                        <Field
+                            type='password'
+                            name='password'
+                            className='form-control'
+                            placeholder='Password'
+                        />
                     </div>
 
                     <button
