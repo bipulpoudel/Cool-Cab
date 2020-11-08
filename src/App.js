@@ -10,12 +10,14 @@ import PackagePage from './pages/PackagePage';
 import ServicePage from './pages/ServicePage';
 import AboutPage from './pages/AboutPage';
 import SignInPage from './pages/SignInPage';
+import SignUpPage from './pages/SignUpPage';
 
 function App() {
     return (
         <Router>
             <Switch>
                 <Route exact path='/login' component={SignInPage} />
+                <Route exact path='/register' component={SignUpPage} />
                 <RouteWrapper exact path='/' component={HomePage} />
                 <RouteWrapper exact path='/about' component={AboutPage} />
                 <RouteWrapper exact path='/services' component={ServicePage} />

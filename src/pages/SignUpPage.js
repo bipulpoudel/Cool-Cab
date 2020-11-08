@@ -10,7 +10,7 @@ function SignUpPage() {
                             <div className='logo'>
                                 <a href='index.html'>
                                     <img
-                                        src='../assets/images/logo-main.png'
+                                        src='./images/logo-main.png'
                                         alt='logo'
                                     />
                                 </a>
@@ -19,39 +19,89 @@ function SignUpPage() {
                     </div>
                 </div>
             </header>
-            <section className='section-padding p-t-0 signup-section user-access-bg'>
+            <section className='section-padding p-t-200 signup-section user-access-bg'>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-lg-6 offset-lg-3 text-center'>
-                            <h2>Sign in</h2>
+                            <h2>Register to get started</h2>
                         </div>
                     </div>
                     <div className='row'>
                         <div className='col-lg-6 offset-lg-3'>
                             <div className='account-access sign-up'>
-                                <ul className='nav nav-tabs' role='tablist'>
-                                    <li role='presentation' className='active'>
-                                        <a
-                                            href='#rider'
-                                            className='active'
-                                            aria-controls='rider'
-                                            role='tab'
-                                            data-toggle='tab'
-                                        >
-                                            Sign up to Ride
-                                        </a>
-                                    </li>
-                                    <li role='presentation'>
-                                        <a
-                                            href='#driver'
-                                            aria-controls='driver'
-                                            role='tab'
-                                            data-toggle='tab'
-                                        >
-                                            Sign up to Drive
-                                        </a>
-                                    </li>
-                                </ul>
+                                <div className='tab-content'>
+                                    <div
+                                        role='tabpanel'
+                                        className='tab-pane active'
+                                        id='rider'
+                                    >
+                                        <form className='user-access-form'>
+                                            <div className='row'>
+                                                <div className='col-lg-6'>
+                                                    <div className='form-group'>
+                                                        <input
+                                                            type='email'
+                                                            className='form-control'
+                                                            id='exampleInputEmail1'
+                                                            aria-describedby='emailHelp'
+                                                            placeholder='First Name'
+                                                        />
+                                                    </div>
+                                                </div>
+                                                <div className='col-lg-6'>
+                                                    <div className='form-group'>
+                                                        <input
+                                                            type='email'
+                                                            className='form-control'
+                                                            id='exampleInputEmail1'
+                                                            aria-describedby='emailHelp'
+                                                            placeholder='Last Name'
+                                                        />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className='form-group'>
+                                                <input
+                                                    type='phone'
+                                                    className='form-control'
+                                                    id='exampleInputphone'
+                                                    placeholder='Phone number'
+                                                />
+                                            </div>
+                                            <div className='form-group'>
+                                                <input
+                                                    type='email'
+                                                    className='form-control'
+                                                    id='exampleInputPassword1'
+                                                    placeholder='Email'
+                                                />
+                                            </div>
+                                            <div className='form-group'>
+                                                <input
+                                                    type='password'
+                                                    className='form-control'
+                                                    id='exampleInputPassword1'
+                                                    placeholder='Password'
+                                                />
+                                            </div>
+                                            <button
+                                                type='submit'
+                                                className='button button-dark btn-block'
+                                            >
+                                                Sign in Now
+                                            </button>
+                                        </form>
+                                        <p className='acclink'>
+                                            Already have an account?
+                                            <a href='sign-in.html'>
+                                                Sign in
+                                                <i className='icofont'>
+                                                    double_right
+                                                </i>
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -65,7 +115,7 @@ function SignUpPage() {
                                 <div className='footer-brand'>
                                     <a href='index.html'>
                                         <img
-                                            src='../assets/images/logo.png'
+                                            src='./images/logo.png'
                                             alt='logo'
                                         />
                                     </a>
@@ -109,13 +159,13 @@ function SignUpPage() {
                                 <div className='app-download-box'>
                                     <a href='/#'>
                                         <img
-                                            src='../assets/images/icon/google-play.jpg'
+                                            src='./images/icon/google-play.jpg'
                                             alt='Google play'
                                         />
                                     </a>
                                     <a href='/#'>
                                         <img
-                                            src='../assets/images/icon/apple-store.jpg'
+                                            src='./images/icon/apple-store.jpg'
                                             alt='Apple store'
                                         />
                                     </a>

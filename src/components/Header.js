@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 function Header() {
     return (
@@ -22,12 +22,12 @@ function Header() {
                         </div>
                         <div className='col-lg-6'>
                             <div className='header__upper--right'>
-                                <a
-                                    href='ride-with-cabgo.html'
+                                <NavLink
+                                    to='/login'
                                     className='button button-dark'
                                 >
                                     Sign In
-                                </a>
+                                </NavLink>
                             </div>
                         </div>
                     </div>
@@ -103,12 +103,12 @@ function Header() {
                                         </li>
                                     </ul>
                                     <div className='my-2 my-lg-0'>
-                                        <a
-                                            href='sign-up.html'
+                                        <NavLink
+                                            to='/register'
                                             className='button button-light'
                                         >
                                             Get Started
-                                        </a>
+                                        </NavLink>
                                     </div>
                                 </div>
                             </nav>
